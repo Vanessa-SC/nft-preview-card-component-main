@@ -63,7 +63,7 @@ main {
     left           : 0;
     right          : 0;
     height         : 85%;
-    background     : var(--cyan2) url(/images/icon-view.svg) center no-repeat;
+    background     : var(--cyan2) url(../images/icon-view.svg) center no-repeat;
     transform      : scale(0);
     transition     : transform .3s;
     color          : #FFF;
