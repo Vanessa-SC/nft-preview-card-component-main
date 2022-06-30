@@ -2,9 +2,9 @@
 
 :root {
     --soft-blue      : hsl(215, 51%, 70%);
-    --soft-blue2      : hsla(215, 52%, 70%, 0.678);
+    --soft-blue2     : hsla(215, 52%, 70%, 0.678);
     --cyan           : hsl(178, 100%, 50%);
-    --cyan2           : hsl(178, 100%, 50%, 0.5);
+    --cyan2          : hsl(178, 100%, 50%, 0.5);
     --very-dark-blue : hsl(217, 54%, 11%);
     --very-dark-blue2: hsl(216, 50%, 16%);
     --very-dark-blue3: hsl(215, 32%, 27%);
@@ -41,9 +41,9 @@ main {
     font-weight  : 700;
     font-size    : 1.325rem;
     margin-bottom: 10px;
-    position: relative;
-    cursor  : pointer;
-    overflow: hidden;
+    position     : relative;
+    cursor       : pointer;
+    overflow     : hidden;
 }
 
 .card-title:hover {
@@ -95,20 +95,16 @@ main {
     color      : var(--cyan);
 }
 
-
-
 .icon {
     width : 15px;
     height: 18px;
 }
 
 .icon-clock {
-    background: url(/images/icon-clock.svg) no-repeat;
-    margin    : auto 10px auto 0;
+    margin: auto 10px auto 0;
 }
 
 .icon-etherium {
-    background  : url(/images/icon-ethereum.svg) no-repeat;
     margin      : auto;
     margin-right: 5px;
 }
@@ -130,9 +126,9 @@ main {
     margin-right : 1rem;
 }
 
-a.author-name{
-    color      : var(--white);
-    margin-left: 4px;
+a.author-name {
+    color          : var(--white);
+    margin-left    : 4px;
     text-decoration: none;
 }
 
@@ -168,7 +164,7 @@ a.author-name:hover {
 }
 
 @media (max-width: 375px) {
-  
+
 
     .attribution {
         position: relative;
